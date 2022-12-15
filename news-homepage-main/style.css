@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo-web {
+    margin-right: 40rem;
+    margin-left: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 80px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-text {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.nav-text:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.news-content {
+    margin: 0 135px 0 135px;
+}
+
+.image-web {
+    width: 750px;
+}
+
+.header {
+    margin-top: 25px;
+    display: flex;
+    width: 300px;
+    font-size: 3rem;
+}
+
+.readmore {
+    display: block;
+    margin: 25px 0 0 40px;
+    width: 355px;
+}
+
+.readmore-para {
+    color: rgba(37, 38, 39, 0.616);
+}
+
+.rd-btn {
+    padding: 15px;
+    margin-top: 30px;
+    letter-spacing: 4px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.colab-one {
+    display: flex;
+}
+
+.flex-two {
+    display: block;
+    padding: 30px;
+    background-color: rgb(46, 11, 80);
+    color: white;
+    width: 300px;
+    margin-left: -100px;
+}
+
+.flex-two>.two-head {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 40px 0 10px 0;
+    color: white;
+}
+
+.flex-two>h4:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+
+}
+
+.flex-two>p {
+    color: rgb(190, 199, 206);
+    margin-bottom: 20px;
+}
+
+.colob-two {
+    display: flex;
+}
+
+.flex-three {
+    display: flex;
+    margin: 30px 120px 0 125px;
+}
+
+.retro-pic,
+.lap-ten,
+.game-img {
+    width: 100px;
+    margin-right: 30px
+}
+
+.number {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(83, 87, 94)
+}
+
+.head {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.head:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.para {
+    margin-top: 10px;
+    font-size: medium;
+    color: rgb(103, 103, 119)
+}
+
+.set-o,
+.set-t,
+.set-th {
+    display: flex;
+}
+
+.retro-pc {
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution {
+    margin: 30px 0 0 28rem;
+}
+
+@media (max-width: 912px) {
+    main {
+        width: 800px;
+    }
+
+}
+
+@media (max-width: 900px) and (orientation: portrait) {
+    body {
+        width: 50px;
+    }
+
+    .image-web {
+        width: 290px;
+        height: 200px;
+    }
+
+    .nav-bar {
+        flex-wrap: wrap;
+    }
+
+    .header {
+        font-size: 2rem;
+    }
+
+    .readmore {
+        display: block;
+        width: 355px;
+        margin-left: 0px;
+        /* background-color: brown; */
+
+    }
+
+    .colab-one {
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+    }
+
+    .colob-two {
+        flex-wrap: wrap;
+
+    }
+
+    .flex-two {
+        margin-top: 30px;
+        margin-left: 120px;
+        /* height: 500px; */
+        width: 100rem;
+    }
+
+    .flex-three {
+        flex-wrap: wrap;
+    }
+
+    .retro-pc,
+    .top-laps,
+    .gaming {
+        margin-top: 30px;
+    }
+
+    .attribution {
+        margin-left: 90px;
+    }
+}
